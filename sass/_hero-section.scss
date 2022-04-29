@@ -23,7 +23,6 @@
   }
 
   h1 {
-    border: 1px solid red;
     @include flexCenter;
     @include text-assets(#fff, #000, 10rem, 0, 2rem);
     @include transformRotate;

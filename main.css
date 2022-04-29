@@ -87,7 +87,6 @@ nav .container-right ul li a:hover {
   display: block;
 }
 .container h1 {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
