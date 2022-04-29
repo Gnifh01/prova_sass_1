@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* VARIABLES */
+@import "./sass/variables";
+
+/* MIXIN */
+@import "./sass/general-mixin";
+
+/* PARTIALS */
+@import "./sass/font";
+@import "./sass/navbar";
+@import "./sass/hero-section";

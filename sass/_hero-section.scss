@@ -1,0 +1,36 @@
+.container {
+
+  .hero-section {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .one {
+    @include backgroundImg("../hero-section.jpg");
+  }
+
+  .two {
+    @include backgroundImg("../one.jpg");
+  }
+
+  .three {
+    @include backgroundImg("../two.jpg");
+  }
+
+  .four {
+    @include backgroundImg("../three.jpg");
+    @include display(block);
+  }
+
+  h1 {
+    border: 1px solid red;
+    @include flexCenter;
+    @include text-assets(#fff, #000, 10rem, 0, 2rem);
+    @include transformRotate;
+
+    span {
+      @include text-assets(#fff, #000, 24rem);
+      font-weight: lighter;
+    }
+  }
+}

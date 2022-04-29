@@ -1,0 +1,43 @@
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexStart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MIXIN NOME(ARGOMENTO) */
+@mixin backgroundImg($fra) {
+
+  background: url($fra) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@mixin display($tipo) {
+  display: $tipo;
+}
+
+@mixin text-assets($text:#fff, $bg:transparent, $font:2rem, $padding:0, $margin:0) {
+  color: $text;
+  background-color: $bg;
+  font-size: $font;
+  padding: $padding;
+  margin: $margin;
+}
+
+@mixin transformRotate($deg:0) {
+  transform: rotate($deg);
+}
